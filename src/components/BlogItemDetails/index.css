@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.blog-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-heading {
+  color: #2f4f4f;
+  font-size: 25px;
+  align-self: center;
+  font-family: 'Roboto';
+}
+
+.profile {
+  height: 50px;
+  width: 50px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  margin-left: 10px;
+}
+
+.author {
+  color: #8e8e8e;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: 'Roboto';
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.img {
+  align-self: flex-start;
+  height: 80%;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  margin-left: 30px;
+}
+
+.content {
+  color: #8e8e8e;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 30px;
+  font-family: 'Roboto';
+}
